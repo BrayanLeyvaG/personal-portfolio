@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from 'react';
+import { motion } from 'framer-motion';
+import { ContactMe } from './Components/ContactMe';
+import { Header } from './Components/Header';
+import { ScrollToTop } from './Components/helper/ScrollToTop';
+import { Hero } from './Components/Hero';
+import { Portfolio } from './Components/Portfolio';
+import { Skills } from './Components/Skills';
 
 function App() {
+
+  const [scrollHeight, setScrollHeight] = useState(0);
+
+  const handleScroll = () => {
+    const position = window.scrollY;
+    setScrollHeight(position);
+  }
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+  }, [scrollHeight]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <motion.div initial='hidden' animate='show'>
+      <ScrollToTop/>
+      <Header isScrolling={scrollHeight}/>
+      <Hero/>
+      <Skills/>
+      <Portfolio/>
+      <ContactMe/>
+    </motion.div>
   );
 }
 
