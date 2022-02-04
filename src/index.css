@@ -195,7 +195,6 @@ h1, h2, p{
     grid-template-columns: 30% 70%;
     text-align: center;
     background-color: #ccc7b9;
-    scroll-margin-top: 98px;
     overflow-x: hidden;
 }
 
@@ -261,7 +260,6 @@ h1, h2, p{
     text-align: center;
     background-color: #ccc7b9;
     margin-bottom: 100vh;
-    scroll-margin-top: 100ex;
     overflow-x: hidden;
 }
 
@@ -599,8 +597,8 @@ h1, h2, p{
     }
 
     .hero-blob{
-        height: 50vh;
-        width: 70vw;
+        height: 35vh;
+        width: 50vw;
         margin: 0 0 20px 0;
     }
 
@@ -611,7 +609,6 @@ h1, h2, p{
     .skills{
         display: flex;
         flex-direction: column;
-        scroll-margin-top: 100ex;
     }
 
     .portfolio{
