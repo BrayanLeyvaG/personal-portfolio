@@ -11,7 +11,7 @@ export const Skills = () => {
         className='div-titles'         
         animate={controls}
         variants={titleAnimation}
-        transition={{delay:0.2, siffness: 200}}
+        transition={{delay:0.1, siffness: 200}}
       ><p className='titles'>Skills</p>
       </motion.div>
       <div>
@@ -19,7 +19,7 @@ export const Skills = () => {
           <motion.div className='skill-box'
           animate={controls}
           variants={revealS}
-          transition={{delay:0.2, siffness: 200}}>
+          transition={{delay:0.1, siffness: 200}}>
               <div className='back-i'><i className="uil uil-html5-alt"></i><p>HTML</p></div>
               <div className='back-i'><i className="uil uil-css3-simple"></i><p>CSS</p></div>
               <div className='back-i'><i className="uil uil-java-script"></i><p>JavaScript</p></div>

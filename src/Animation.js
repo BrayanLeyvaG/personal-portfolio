@@ -15,21 +15,21 @@ export const imageAnimation = {
 }
 
 export const revealS = {
-    hidden: { x: 1400},
+    hidden: { x: "100vw"},
     show: {x: 0},
 };
 
 export const titleAnimation = {
-    hidden: {x:-500},
+    hidden: {x:"-100vw"},
     show:{x:0}
 }
 
 export const revealP = {
-    hidden: { x: -1400},
+    hidden: { x: "-100vw"},
     show: {x: 0},
 };
 
 export const titleAnimationP = {
-    hidden: {x:500},
+    hidden: {x:"100vw"},
     show:{x:0}
 }

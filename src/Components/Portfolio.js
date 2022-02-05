@@ -15,7 +15,7 @@ export const Portfolio = () => {
           className='portfolio-box'
           animate={controls}
           variants={revealP}
-          transition={{delay:0.2, siffness: 200}}>
+          transition={{delay:0.1, siffness: 200}}>
             <Projects/>
           </motion.div>
         <div className='separator' id='contactme'></div>
@@ -24,7 +24,7 @@ export const Portfolio = () => {
         className='div-titles'         
         animate={controls}
         variants={titleAnimationP}
-        transition={{delay:0.2, siffness: 200}}>
+        transition={{delay:0.1, siffness: 200}}>
       <p className='titles'>Portfolio</p>
       </motion.div>
     </div>
