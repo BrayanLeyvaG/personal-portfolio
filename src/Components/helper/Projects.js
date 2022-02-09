@@ -30,10 +30,10 @@ export const Projects = () => {
           </div>
         </div>
         <div className='div-port'>
-          <a href='https://brayanleyvag.github.io/ocular/' target='_blank'><img src={proj4} alt='Ocular Eyewear'></img></a>
+          <a href='https://practica-carrito-blg.netlify.app/' target='_blank'><img src={proj4} alt='Shopping Cart project'></img></a>
           <div className='port-btns'>
-            <a href='https://brayanleyvag.github.io/ocular/' target='_blank'><button>Demo</button></a>
-            <a href='https://github.com/BrayanLeyvaG/ocular' target='_blank'><button>Code</button></a>
+            <a href='https://practica-carrito-blg.netlify.app/' target='_blank'><button>Demo</button></a>
+            <a href='https://github.com/BrayanLeyvaG/practica-carrito' target='_blank'><button>Code</button></a>
           </div>
         </div>   
     </div>
