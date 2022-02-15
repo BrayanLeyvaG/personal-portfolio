@@ -174,7 +174,7 @@ h1, h2, p{
     color: aqua;
 }
 
-.uil-github-alt:hover{
+.uil-github-alt:hover, .uil-bold:hover{
     color: rgb(183, 0, 255);
 }
 
@@ -288,25 +288,44 @@ h1, h2, p{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: end;
+    justify-content: center;
     position: relative;
 }
 
 .projects-box div img{
-    height: 12rem;
-    width: 19rem;
+    height: 100%;
+    width: 100%;
     border-radius: 30px;
     cursor: pointer;
 }
 
-.projects-box div img:hover{
-    border: solid #fca311 3px;
-    
+.image-overlay{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.2rem;
+    opacity: 0;
+    transition: opacity 0.25s;
+    border-radius: 30px;
 }
 
-.port-btns{
-    position: absolute;
-    bottom: 10px;
+.image-overlay:hover{
+    opacity: 1;
+    transition: opacity 0.25s;
+}
+
+.image-overlay h5{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.image-overlay p i{
+    font-size: 2rem;
 }
 
 .port-btns button{
