@@ -24,6 +24,9 @@ export const Skills = () => {
               <div className='back-i'><i className="uil uil-css3-simple"></i><p>CSS</p></div>
               <div className='back-i'><i className="uil uil-java-script"></i><p>JavaScript</p></div>
               <div className='back-i'><i className="uil uil-react"></i><p>React</p></div>
+              <div className='back-i'><i className="uil uil-wordpress-simple"></i><p>Wordpress</p></div>
+              <div className='back-i'><i className="uil uil-bold"></i><p>Bootstrap</p></div>
+
           </motion.div>
         <div className='separator'></div>
       </div>
