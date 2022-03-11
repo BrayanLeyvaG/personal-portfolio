@@ -312,7 +312,7 @@ h1, h2, p{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     opacity: 0;
     transition: opacity 0.25s;
     border-radius: 30px;
@@ -324,18 +324,18 @@ h1, h2, p{
 }
 
 .image-overlay h5{
-    font-size: 1.5rem;
-    padding: 10px;
+    font-size: 1.4rem;
+    padding: 10px 10px 0 10px;
 }
 
 .image-overlay p i{
-    font-size: 2rem;
+    font-size: 1.7rem;
 }
 
 .port-btns button{
     background-color: #fca311;
     color: #0A101F;
-    padding: .2em .6em;
+    padding: .1em .6em;
     font-size: .9em;
     border-radius: 10px;
     margin-top: 10px;
