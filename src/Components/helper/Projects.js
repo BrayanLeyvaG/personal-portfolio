@@ -1,5 +1,5 @@
 import React from 'react';
-import proj1 from '../../img/proj1.jpg'
+import proj1 from '../../img/proj1.png'
 import proj2 from '../../img/proj2.jpg'
 import proj3 from '../../img/proj3.jpg'
 import proj4 from '../../img/proj4.png'
@@ -25,12 +25,12 @@ export const Projects = () => {
         <div className='div-port'>
           <img src={proj1} alt='PokeDex'></img>
           <div className='image-overlay port-btns'>
-            <h5>PokeDex</h5>
-            <p>Search a Pokemon.</p>
-            <p><i className="uil uil-html5-alt"></i> <i className="uil uil-css3-simple"></i> <i className="uil uil-java-script"></i></p>
+            <h5>Rick and Morty App</h5>
+            <p>Look for all the Rick and Morty's worlds by their ID.</p>
+            <p><i className="uil uil-html5-alt"></i> <i className="uil uil-css3-simple"></i> <i className="uil uil-java-script"></i> <i className="uil uil-react"></i></p>
             <div className='port-btns'>
-              <a href='https://brayanleyvag.github.io/PokeDex/' target='_blank'><button>Demo</button></a>
-              <a href='https://github.com/BrayanLeyvaG/PokeDex' target='_blank'><button>Code</button></a>
+              <a href='https://rickandmorty-blg.netlify.app/' target='_blank'><button>Demo</button></a>
+              <a href='https://github.com/BrayanLeyvaG/rick-and-morty' target='_blank'><button>Code</button></a>
             </div>
           </div>
         </div>
