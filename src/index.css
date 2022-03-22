@@ -230,6 +230,13 @@ h1, h2, p{
 
 }
 
+.back-i{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
 .skill-box i{
     font-size: 5em;
 }
@@ -238,24 +245,28 @@ h1, h2, p{
     font-weight: 900;
 }
 
-.uil-html5-alt:hover{
+.html5{
     color: #E44D26;
 }
 
-.uil-css3-simple:hover{
+.css3{
     color: #264de4;
 }
 
-.uil-java-script:hover{
+.javas{
     color: #f0db4f;
 }
 
-.uil-react:hover{
+.react{
     color: #61DBFB;
 }
 
-.uil-wordpress-simple:hover{
+.wordpress{
     color: #21759b;
+}
+
+.git-icon{
+    color: #c9510c;
 }
 
 .portfolio{

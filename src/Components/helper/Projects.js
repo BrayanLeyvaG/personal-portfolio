@@ -51,7 +51,7 @@ export const Projects = () => {
           <div className='image-overlay port-btns'>
             <h5>GifApp</h5>
             <p>Search and display gifs.</p>
-            <p><i className="uil uil-html5-alt"></i> <i className="uil uil-css3-simple"></i> <i className="uil uil-java-script"></i> <i className="uil uil-react"></i></p>
+            <p><i className="uil uil-html5-alt"></i> <i className="uil uil-css3-simple"></i> <i className="uil uil-react"></i></p>
             <div className='port-btns'>
               <a href='https://brayanleyvag.github.io/gif-app/' target='_blank'><button>Demo</button></a>
               <a href='https://github.com/BrayanLeyvaG/gif-app' target='_blank'><button>Code</button></a>
@@ -63,7 +63,7 @@ export const Projects = () => {
           <div className='image-overlay port-btns'>
             <h5>C.R.U.D. Cars</h5>
             <p>C.R.U.D using controlled inputs & http requests.</p>
-            <p><i className="uil uil-java-script"></i></p>
+            <p><i className="uil uil-bold"></i> <i className="uil uil-html5-alt"></i> <i className="uil uil-react"></i></p>
             <div className='port-btns'>
               <a href= 'https://cars-crud-blg.netlify.app/' target='_blank'><button>Demo</button></a>
               <a href='https://github.com/BrayanLeyvaG/crud-cars' target='_blank'><button>Code</button></a>
@@ -81,7 +81,6 @@ export const Projects = () => {
             </div>
           </div>
         </div>
-
     </div>
     );
 };
