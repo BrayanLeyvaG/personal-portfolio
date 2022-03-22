@@ -13,7 +13,7 @@ export const Projects = () => {
         <div className='div-port'>
           <img src={proj3} alt='To-Do list'></img>
           <div className='image-overlay port-btns'>
-            <h5>Email sending</h5>
+            <h5>To-Do App</h5>
             <p>C.R.U.D. using react-hook-form & http requests.</p>
             <p><i className="uil uil-html5-alt"></i> <i className="uil uil-css3-simple"></i> <i className="uil uil-react"></i></p>
             <div className='port-btns'>
