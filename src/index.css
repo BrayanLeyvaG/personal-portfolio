@@ -83,6 +83,12 @@ a{
     z-index: 2000;
 }
 
+.main{
+    background-image: url(./img/liquid-cheese.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .header-links{
     color: #ccc7b9;
     font-size: 1.8em;
@@ -554,6 +560,10 @@ h1, h2, p{
 @media screen and (min-width:200px) and (max-width:919px) {
     .body{
         overflow-x: hidden;
+    }
+
+    .main{
+        background-position: center;
     }
 
     .navbar.active nav{

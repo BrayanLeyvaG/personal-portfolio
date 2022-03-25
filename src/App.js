@@ -23,8 +23,10 @@ function App() {
   return (
     <motion.div initial='hidden' animate='show'>
       <ScrollToTop/>
-      <Header isScrolling={scrollHeight}/>
-      <Hero/>
+      <div className='main'>
+        <Header isScrolling={scrollHeight}/>
+        <Hero/>
+      </div>
       <Skills/>
       <Portfolio/>
       <ContactMe/>
