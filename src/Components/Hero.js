@@ -16,7 +16,7 @@ export function Hero() {
           <p>Hi, I'm</p>
           <h1>Brayan Leyva Gastelum</h1>
           <h2>Frontend Developer</h2>
-          <a href='#contactme'><button type='button' className='btn-contact'>Contact me <i className="uil uil-message"></i></button></a>
+          <a href='#contactme'><button type='button' className='btn-contact'>Contact me</button></a>
         </motion.div>
         <motion.div className='img-symb' variants={imageAnimation} animate={controls} transition={{type:'tween'}}>
           <div className='hero-blob' >
