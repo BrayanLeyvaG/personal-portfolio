@@ -14,7 +14,7 @@ export const Projects = () => {
           <img src={proj2} alt='PokeDex Image'></img>
           <div className='image-overlay port-btns'>
             <h5>Pokedex</h5>
-            <p>Search for your favorite pokemon and see its information.</p>
+            <p>See your favorite pokemon information.</p>
             <p><i className="uil uil-html5-alt"></i> <i className="uil uil-css3-simple"></i> <i className="uil uil-react"></i></p>
             <div className='port-btns'>
               <a href='https://pokedex-blg.netlify.app/' target='_blank'><button>Demo</button></a>
