@@ -1,6 +1,6 @@
 import React from 'react';
 import proj1 from '../../img/proj1.png'
-import proj2 from '../../img/proj2.jpg'
+import proj2 from '../../img/proj2.png'
 import proj3 from '../../img/project-to-do.png'
 import proj4 from '../../img/proj4.png'
 import proj5 from '../../img/proj5.jpg'
@@ -10,6 +10,18 @@ import proj6 from '../../img/project-cars.png'
 export const Projects = () => {
   return (
     <div className='projects-box'>
+        <div className='div-port'>
+          <img src={proj2} alt='PokeDex Image'></img>
+          <div className='image-overlay port-btns'>
+            <h5>Pokedex</h5>
+            <p>Search for your favorite pokemon and see its information.</p>
+            <p><i className="uil uil-html5-alt"></i> <i className="uil uil-css3-simple"></i> <i className="uil uil-react"></i></p>
+            <div className='port-btns'>
+              <a href='https://pokedex-blg.netlify.app/' target='_blank'><button>Demo</button></a>
+              <a href='https://github.com/BrayanLeyvaG/pokedex-react' target='_blank'><button>Code</button></a>
+            </div>
+          </div>
+        </div>
         <div className='div-port'>
           <img src={proj3} alt='To-Do list'></img>
           <div className='image-overlay port-btns'>
@@ -43,18 +55,6 @@ export const Projects = () => {
             <div className='port-btns'>
               <a href='https://rickandmorty-blg.netlify.app/' target='_blank'><button>Demo</button></a>
               <a href='https://github.com/BrayanLeyvaG/rick-and-morty' target='_blank'><button>Code</button></a>
-            </div>
-          </div>
-        </div>
-        <div className='div-port'>
-          <img src={proj2} alt='GifApp'></img>
-          <div className='image-overlay port-btns'>
-            <h5>GifApp</h5>
-            <p>Search and display gifs.</p>
-            <p><i className="uil uil-html5-alt"></i> <i className="uil uil-css3-simple"></i> <i className="uil uil-react"></i></p>
-            <div className='port-btns'>
-              <a href='https://brayanleyvag.github.io/gif-app/' target='_blank'><button>Demo</button></a>
-              <a href='https://github.com/BrayanLeyvaG/gif-app' target='_blank'><button>Code</button></a>
             </div>
           </div>
         </div>
