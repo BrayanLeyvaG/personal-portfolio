@@ -33,3 +33,8 @@ export const titleAnimationP = {
     hidden: {x:"100vw"},
     show:{x:0}
 }
+
+/* export const aboutMeA = {
+    hidden: {x:"100vw"},
+    show:{x:0}
+} */

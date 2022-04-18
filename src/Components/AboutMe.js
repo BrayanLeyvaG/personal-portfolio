@@ -1,10 +1,16 @@
-import React from 'react'
+import React from 'react';
+import { motion } from 'framer-motion';
+import {imageAnimation} from '../Animation.js'
+import { useScroll } from './helper/useScroll.js';
 
 export const AboutMe = () => {
+    const [element, controls] = useScroll()
   return (
-    <div className='about-me' id='about-me'>
-        <p className='titles title-me'>About me</p>
-        <div className='am-bg'>
+    <div className='about-me' id='about-me' ref={element}>
+        <motion.div 
+        variants={imageAnimation} animate={controls} transition={{ ease: "easeIn", duration: .5 }}
+        >
+            <p className='titles title-me'>About me</p>
             <div className='about-container'>
                 <div className='me-1'>
                     <div className='am-img'></div>
@@ -23,7 +29,8 @@ export const AboutMe = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </motion.div>
+        <div className='separator'></div>
     </div>
   )
 }
