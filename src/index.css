@@ -113,8 +113,10 @@ a{
     align-items: center;
     display: flex;
     justify-content: space-between;
-    padding: 50px 18%;
+    padding: 50px;
     scroll-margin-top: 15ex;
+    max-width: 1200px;
+    margin: 0 auto;
 
 }
 
@@ -129,8 +131,6 @@ a{
 h1, h2, p{
     font-weight: 100;
 }
-
-
 
 .hero-lines h1{
     color: #fca311;
@@ -167,7 +167,6 @@ h1, h2, p{
     width: 420px;
 }
 
-
 .hero-icons{
     display: flex;
     flex-direction: column;
@@ -201,10 +200,58 @@ h1, h2, p{
     overflow-x: hidden;
 }
 
+.title-me{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+
 .about-container{
     width: 100vw;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    max-width: 1200px;
+    margin: 0 auto;
     background-color: #0A101F;
+    padding: 50px 80px;    
+    border-radius: 30px;
+    gap: 50px;
+}
 
+.me-1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.me-2{
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.am-img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(./img/me-be.jpg);
+    margin-bottom: 20px;
+}
+
+.am-e{
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.am-p{
+    margin-bottom: 20px;
 }
 
 .skills{
@@ -530,7 +577,7 @@ h1, h2, p{
     font-size: 1.2em;
 }
 
-@media screen and (min-width:920px) and (max-width:1000px){
+@media screen and (min-width:750px) and (max-width:1000px){
     .hero-main-main{
         height: 90vh;
     }
@@ -583,11 +630,10 @@ h1, h2, p{
     .port-btns button{
         font-size: .6em;
     }
-    
 
 }
 
-@media screen and (min-width:100px) and (max-width:919px) {
+@media screen and (min-width:100px) and (max-width:750px) {
     .hero-main{
         padding: 30px 30px;
     }
@@ -764,7 +810,15 @@ h1, h2, p{
         color: #ccc7b9;
     }
 
+    .about-container{
+        display: flex;
+        flex-direction: column;
+        padding: 50px 20px;
+    }
 
-
+    .me-2{
+        display: flex;
+        flex-direction: column;
+    }
 
 }

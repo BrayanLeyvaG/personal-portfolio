@@ -33,7 +33,7 @@ export function Hero() {
     initial={{y:-20}}
     animate={{y:0, transition:{ duration: 1, ease: 'easeIn', repeat: Infinity, repeatType: 'reverse'},
     }}
-    ><a href='#skills'><i className="uil uil-angle-double-down"></i></a></motion.p>
+    ><a href='#about-me'><i className="uil uil-angle-double-down"></i></a></motion.p>
   </div>
 
   );};
