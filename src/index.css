@@ -529,6 +529,7 @@ h1, h2, p{
         flex-direction: column-reverse;
         height: 100%;
         justify-content: center;
+        
     }
 
     .hero-lines h1, h2, p{
@@ -539,15 +540,15 @@ h1, h2, p{
     }
 
     .hero-lines{
-        font-size: 1.1em;
+        font-size: 1.4em;
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
     .hero-blob{
-        height: 50vh;
-        width: 50vw;
+        height: 45vh;
+        width: 45vw;
         margin: 0 0 20px 0;
     }
 
@@ -557,7 +558,11 @@ h1, h2, p{
 
 }
 
-@media screen and (min-width:200px) and (max-width:919px) {
+@media screen and (min-width:100px) and (max-width:919px) {
+    .hero-main{
+        padding: 30px 30px;
+    }
+
     .body{
         overflow-x: hidden;
     }
@@ -642,7 +647,7 @@ h1, h2, p{
 
     .hero-blob{
         height: 35vh;
-        width: 50vw;
+        width: 70vw;
         margin: 0 0 20px 0;
     }
 

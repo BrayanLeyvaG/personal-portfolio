@@ -19,6 +19,7 @@ export const Header = ({isScrolling}) => {
         <div className='links-nav'>
           <ul className='ul-nav'>
               <li><a href='#home' onClick={navbarToggler} className='header-links'>Home</a></li>
+              <li><a href='#about-me' onClick={navbarToggler} className='header-links'>About me</a></li>
               <li><a href='#skills' onClick={navbarToggler} className='header-links'>Skills</a></li>
               <li><a href='#portfolio' onClick={navbarToggler} className='header-links'>Portfolio</a></li>
               <li><a href='#contactme' onClick={navbarToggler} className='header-links hdcm'>Contact me</a></li>
