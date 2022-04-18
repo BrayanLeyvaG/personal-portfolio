@@ -251,8 +251,17 @@ h1, h2, p{
     margin-bottom: 20px;
 }
 
+.am-p i{
+    color: #fca311;
+    font-size: .8em;
+}
+
 .am-p{
     margin-bottom: 20px;
+}
+
+.am-year{
+    color: #687596;
 }
 
 .skills{
