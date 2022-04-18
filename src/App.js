@@ -6,6 +6,7 @@ import { ScrollToTop } from './Components/helper/ScrollToTop';
 import { Hero } from './Components/Hero';
 import { Portfolio } from './Components/Portfolio';
 import { Skills } from './Components/Skills';
+import { AboutMe } from './Components/AboutMe';
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
         <Header isScrolling={scrollHeight}/>
         <Hero/>
       </div>
+      <AboutMe/>
       <Skills/>
       <Portfolio/>
       <ContactMe/>

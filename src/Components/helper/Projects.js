@@ -14,7 +14,7 @@ export const Projects = () => {
           <img src={proj2} alt='PokeDex Image'></img>
           <div className='image-overlay port-btns'>
             <h5>Pokedex</h5>
-            <p>See your favorite pokemon information.</p>
+            <p className='p-description'>See your favorite pokemon information.</p>
             <p><i className="uil uil-html5-alt"></i> <i className="uil uil-css3-simple"></i> <i className="uil uil-react"></i></p>
             <div className='port-btns'>
               <a href='https://pokedex-blg.netlify.app/' target='_blank'><button>Demo</button></a>
@@ -26,7 +26,7 @@ export const Projects = () => {
           <img src={proj3} alt='To-Do list'></img>
           <div className='image-overlay port-btns'>
             <h5>To-Do App</h5>
-            <p>C.R.U.D. using react-hook-form & http requests.</p>
+            <p className='p-description'>C.R.U.D. using react-hook-form & http requests.</p>
             <p><i className="uil uil-html5-alt"></i> <i className="uil uil-css3-simple"></i> <i className="uil uil-react"></i></p>
             <div className='port-btns'>
               <a href='https://todoapp-crud.netlify.app/' target='_blank'><button>Demo</button></a>
@@ -38,7 +38,7 @@ export const Projects = () => {
           <img src={proj4} alt='Shopping Cart project'></img>
           <div className='image-overlay port-btns'>
             <h5>DigitalLab</h5>
-            <p>Landing page.</p>
+            <p className='p-description'>Landing page.</p>
             <p><i className="uil uil-html5-alt"></i> <i className="uil uil-css3-simple"></i> <i className="uil uil-react"></i></p>
             <div className='port-btns'>
               <a href= 'https://digitallab.netlify.app/' target='_blank'><button>Demo</button></a>
@@ -50,7 +50,7 @@ export const Projects = () => {
           <img src={proj1} alt='PokeDex'></img>
           <div className='image-overlay port-btns'>
             <h5>Rick and Morty App</h5>
-            <p>Look for all the Rick and Morty's worlds by their ID.</p>
+            <p className='p-description'>Look for all the Rick and Morty's worlds by their ID.</p>
             <p><i className="uil uil-html5-alt"></i> <i className="uil uil-css3-simple"></i> <i className="uil uil-java-script"></i> <i className="uil uil-react"></i></p>
             <div className='port-btns'>
               <a href='https://rickandmorty-blg.netlify.app/' target='_blank'><button>Demo</button></a>
@@ -62,7 +62,7 @@ export const Projects = () => {
           <img src={proj6} alt='Shopping Cart project'></img>
           <div className='image-overlay port-btns'>
             <h5>C.R.U.D. Cars</h5>
-            <p>C.R.U.D using controlled inputs & http requests.</p>
+            <p className='p-description'>C.R.U.D using controlled inputs & http requests.</p>
             <p><i className="uil uil-bold"></i> <i className="uil uil-html5-alt"></i> <i className="uil uil-react"></i></p>
             <div className='port-btns'>
               <a href= 'https://cars-crud-blg.netlify.app/' target='_blank'><button>Demo</button></a>
@@ -74,7 +74,7 @@ export const Projects = () => {
           <img src={proj5} alt='PokeDex'></img>
           <div className='image-overlay port-btns'>
             <h5>Gastelek</h5>
-            <p>Full page.</p>
+            <p className='p-description'>Full page.</p>
             <p><i className="uil uil-wordpress-simple"></i></p>
             <div className='port-btns'>
               <a href='https://www.gastelek.com/' target='_blank'><button>Demo</button></a>

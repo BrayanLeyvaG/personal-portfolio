@@ -196,6 +196,17 @@ h1, h2, p{
     color: #fca311;
 }
 
+.about-me{
+    background-color: #ccc7b9;
+    overflow-x: hidden;
+}
+
+.about-container{
+    width: 100vw;
+    background-color: #0A101F;
+
+}
+
 .skills{
     display: grid;
     grid-template-columns: 30% 70%;
@@ -332,7 +343,7 @@ h1, h2, p{
     font-size: 1.1rem;
     opacity: 0;
     transition: opacity 0.25s;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 
 .image-overlay:hover{
@@ -341,19 +352,19 @@ h1, h2, p{
 }
 
 .image-overlay h5{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     padding: 10px 10px 0 10px;
 }
 
-.image-overlay p i{
-    font-size: 1.7rem;
+.image-overlay i{
+    font-size: 1.6rem;
 }
 
 .port-btns button{
     background-color: #fca311;
     color: #0A101F;
     padding: .1em .6em;
-    font-size: .9em;
+    font-size: .7em;
     border-radius: 10px;
     margin-top: 10px;
     cursor: pointer;
@@ -555,6 +566,24 @@ h1, h2, p{
     .arrow-i{
         margin-top: -100px;
     }
+
+    .p-description{
+        font-size: .7em;
+    }
+
+    .image-overlay h5{
+        font-size: 1rem;
+        padding: 10px 10px 0 10px;
+    }
+    
+    .image-overlay i{
+        font-size: 1.2rem;
+    }
+
+    .port-btns button{
+        font-size: .6em;
+    }
+    
 
 }
 
