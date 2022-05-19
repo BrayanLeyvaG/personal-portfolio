@@ -292,7 +292,7 @@ h1, h2, p{
 
 .skill-box{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     padding: 4% 20%;
     gap: 20px 5px;
     background-color: #0A101F;
