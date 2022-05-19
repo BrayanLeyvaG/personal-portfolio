@@ -442,12 +442,15 @@ h1, h2, p{
     bottom: 0;
     left: 0;
     width: 100%;
-    padding: 100px;
+    padding: 100px 0;
+
 }
 
 .contact-main{
     display: grid;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 75% 25%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .contac-text{
@@ -522,7 +525,6 @@ h1, h2, p{
 }
 
 .button-sub{
-    width: 20%;
     font-size: 2em;
     padding: 10px 20px;
     border-radius: 20px;
@@ -741,6 +743,13 @@ h1, h2, p{
     .skills{
         display: flex;
         flex-direction: column;
+    }
+
+    .skill-box{
+
+        grid-template-columns: auto auto auto auto;
+        height: auto;
+    
     }
 
     .portfolio{
